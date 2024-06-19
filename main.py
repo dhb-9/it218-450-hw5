@@ -1,3 +1,6 @@
+## original
+# using python main.py # # operation
+'''
 from decimal import Decimal, InvalidOperation
 import sys
 from calculator import Calculator
@@ -37,3 +40,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+'''
+## for app/command pattern
+# using python main.py
+from app import App    
+
+if __name__ == "__main__":
+    App.start()
